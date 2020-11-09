@@ -4,19 +4,16 @@ int main() {
     char stroka[255];
     printf("Input words: ");
     gets(stroka);
-
-    //Íàõîäèì êîëè÷åñòâî ñèìâîëîâ â ñòðîêå
     int N = 0, a = 0;
     while (stroka[a] != '\0')
     {
         a++;
         N++;
     }
-    //Ïåðåìåííàÿ äëÿ òåêóùåãî ñîñòîÿíèÿ â ïðîãðàììå
     int flag = 0, flag2, flag3 = 0;
     int i = 0, j;
-    // Èíäåêñû äëÿ âûâîäà ñëîâà
     int b = 0, c = 0;
+    
     for (i = 0; i < N; i++)
     {
         
